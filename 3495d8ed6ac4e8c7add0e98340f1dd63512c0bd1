@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_e559cbfe",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-01T14:10:00Z",
+      "side": 1,
+      "message": "You really need to cleanup this\nYou could try to build the audio hal from source and remove the unneeded configs ( hint: almost every of them )",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 25
+      },
+      "revId": "3495d8ed6ac4e8c7add0e98340f1dd63512c0bd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_254aa326",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-01T14:10:00Z",
+      "side": 1,
+      "message": "You could write a lights hal, it\u0027s not hard",
+      "range": {
+        "startLine": 145,
+        "startChar": 0,
+        "endLine": 146,
+        "endChar": 24
+      },
+      "revId": "3495d8ed6ac4e8c7add0e98340f1dd63512c0bd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_0547a71f",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-01T14:10:00Z",
+      "side": 1,
+      "message": "CM will always pick media_profiles/codecs/codecs_performance.xml\nBe sure these are the proper configs",
+      "range": {
+        "startLine": 149,
+        "startChar": 0,
+        "endLine": 160,
+        "endChar": 27
+      },
+      "revId": "3495d8ed6ac4e8c7add0e98340f1dd63512c0bd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
