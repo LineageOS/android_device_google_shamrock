@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_8219e47a",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-03T12:03:14Z",
+      "side": 1,
+      "message": "Are you sure these are the correct media configs?\nYou aren\u0027t msm8956",
+      "range": {
+        "startLine": 134,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 25
+      },
+      "revId": "4b7c9eeb8183af7f7158293941d11b535707c968",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
