@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_9bedca27",
+        "filename": "liblight/lights.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-12-04T19:07:28Z",
+      "side": 1,
+      "message": "You don\u0027t need to set the brightness value if blink is active?",
+      "revId": "2e9519b77efdca4e331d6f34e69806639565ca9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_bbe88616",
+        "filename": "liblight/lights.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-12-04T19:07:28Z",
+      "side": 1,
+      "message": "tabs",
+      "revId": "2e9519b77efdca4e331d6f34e69806639565ca9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_fbf2fe05",
+        "filename": "liblight/lights.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-12-04T19:07:28Z",
+      "side": 1,
+      "message": "Shamrock really has hardware buttons with backlight? Can\u0027t believe so...",
+      "revId": "2e9519b77efdca4e331d6f34e69806639565ca9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

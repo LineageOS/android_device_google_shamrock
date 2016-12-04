@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_7b91ce99",
+        "filename": "liblight/lights.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-12-04T19:07:28Z",
+      "side": 0,
+      "message": "This looks wrong, as it essentially will kill the debug tag. What\u0027s the point of this change?",
+      "revId": "99a97eeb968046f5647df1c8077b5e6069a89aca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
