@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_47051077",
+        "filename": "liblight/lights.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T20:01:01Z",
+      "side": 1,
+      "message": "Why add this, knowing it\u0027s never used.",
+      "revId": "942058cd682fea95ead96cbf96e0b8f091d2b980",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_070b188e",
+        "filename": "liblight/lights.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 373,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T20:01:01Z",
+      "side": 1,
+      "message": "What\u0027s the reason to change these, the result is identical.",
+      "revId": "942058cd682fea95ead96cbf96e0b8f091d2b980",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_c7d760ed",
+        "filename": "liblight/lights.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T20:01:01Z",
+      "side": 1,
+      "message": "Indentation wrong.",
+      "revId": "942058cd682fea95ead96cbf96e0b8f091d2b980",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
