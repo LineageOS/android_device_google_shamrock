@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_67d12cce",
+        "filename": "liblight/lights.c",
+        "patchSetId": 11
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T21:10:13Z",
+      "side": 1,
+      "message": "Do not remove oldest copyright year. 2014-2016.",
+      "revId": "b0058b55c87c1b77a83e72a1f4dc3d907b88c845",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_47d6b0c7",
+        "filename": "liblight/lights.c",
+        "patchSetId": 11
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T21:10:13Z",
+      "side": 1,
+      "message": "Most likely unneeded, if you did this shouldn\u0027t be in this commit.",
+      "revId": "b0058b55c87c1b77a83e72a1f4dc3d907b88c845",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
