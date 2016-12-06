@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2015 The CyanogenMod Project
+ * Copyright (C) 2015-2016 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,6 +28,7 @@
 #include <fcntl.h>
 #include <pthread.h>
 
+#include <sys/ioctl.h>
 #include <sys/types.h>
 
 #include <hardware/lights.h>
@@ -279,7 +280,35 @@ set_light_notifications(UNUSED struct light_device_t *dev,
         const struct light_state_t *state)
 {
     pthread_mutex_lock(&g_lock);
+
+    unsigned int brightness;
+    unsigned int color;
+    unsigned int rgb[3];
+
     g_notification = *state;
+
+    // If a brightness has been applied by the user
+    brightness = (g_notification.color & 0xFF000000) >> 24;
+    if (brightness > 0 && brightness < 0xFF) {
+
+        // Retrieve each of the RGB colors
+        color = g_notification.color & 0x00FFFFFF;
+        rgb[0] = (color >> 16) & 0xFF;
+        rgb[1] = (color >> 8) & 0xFF;
+        rgb[2] = color & 0xFF;
+
+        // Apply the brightness level
+        if (rgb[0] > 0)
+            rgb[0] = (rgb[0] * brightness) / 0xFF;
+        if (rgb[1] > 0)
+            rgb[1] = (rgb[1] * brightness) / 0xFF;
+        if (rgb[2] > 0)
+            rgb[2] = (rgb[2] * brightness) / 0xFF;
+
+        // Update with the new color
+        g_notification.color = (rgb[0] << 16) + (rgb[1] << 8) + rgb[2];
+    }
+
     handle_speaker_light_locked(dev);
     pthread_mutex_unlock(&g_lock);
 
@@ -350,6 +379,7 @@ static int open_lights(const struct hw_module_t *module, const char *name,
     pthread_once(&g_init, init_globals);
 
     struct light_device_t *dev = malloc(sizeof(struct light_device_t));
+
     memset(dev, 0, sizeof(*dev));
 
     dev->common.tag = HARDWARE_DEVICE_TAG;
@@ -374,7 +404,7 @@ struct hw_module_t HAL_MODULE_INFO_SYM = {
     .version_major = 1,
     .version_minor = 0,
     .id = LIGHTS_HARDWARE_MODULE_ID,
-    .name = "Storm Lights Module",
+    .name = "Shamrock Lights Module",
     .author = "The CyanogenMod Project",
     .methods = &lights_module_methods,
 };
