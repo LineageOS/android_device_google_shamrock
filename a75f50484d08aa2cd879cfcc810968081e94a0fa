@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_47efd083",
+        "filename": "liblight/Android.mk",
+        "patchSetId": 12
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T21:15:42Z",
+      "side": 1,
+      "message": "Removing copyright from CyanogenMod?",
+      "revId": "a75f50484d08aa2cd879cfcc810968081e94a0fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_07f5d857",
+        "filename": "liblight/Android.mk",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T21:15:42Z",
+      "side": 1,
+      "message": "common_flags is not even defined here, where does that come from.. ?",
+      "revId": "a75f50484d08aa2cd879cfcc810968081e94a0fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_67eacc75",
+        "filename": "liblight/Android.mk",
+        "patchSetId": 12
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-06T21:15:42Z",
+      "side": 1,
+      "message": "Totally unrelated, as I said twice already, unrelated commit, separately.",
+      "revId": "a75f50484d08aa2cd879cfcc810968081e94a0fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
