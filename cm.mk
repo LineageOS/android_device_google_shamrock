@@ -33,3 +33,6 @@ TARGET_VENDOR := google
 TARGET_VENDOR_PRODUCT_NAME := Shamrock
 TARGET_VENDOR_DEVICE_NAME := shamrock
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=qcom/shamrock/shamrock:7.0/N3F55/3520474:user/release-keys \
+    PRIVATE_BUILD_DESC="shamrock-user 7.0 N3F55 3520474 release-keys"
