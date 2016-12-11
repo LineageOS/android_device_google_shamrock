@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "5f681702_d2dd4a43",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-11T18:35:15Z",
+      "side": 1,
+      "message": "I guess you don\u0027t need these, you have l9300 specifc acdb\nAlso looks like you don\u0027t have any acdb-loader",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 37
+      },
+      "revId": "a290cef72ab6fe8b223aaf6bd7038843d100d062",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_92d3d238",
         "filename": "proprietary-files-qc.txt",
         "patchSetId": 7
