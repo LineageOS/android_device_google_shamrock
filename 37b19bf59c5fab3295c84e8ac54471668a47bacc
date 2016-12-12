@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_bf87b20f",
+        "filename": "cm.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-12T18:49:24Z",
+      "side": 1,
+      "message": "You shouldn\u0027t need this, PRODUCT_DEVICE does this job for you",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 27
+      },
+      "revId": "37b19bf59c5fab3295c84e8ac54471668a47bacc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
