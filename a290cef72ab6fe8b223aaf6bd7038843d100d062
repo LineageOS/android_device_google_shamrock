@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5f681702_d7ac0937",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-16T14:59:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f681702_d2dd4a43",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 37
+      },
+      "revId": "a290cef72ab6fe8b223aaf6bd7038843d100d062",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_92d3d238",
         "filename": "proprietary-files-qc.txt",
         "patchSetId": 7
@@ -36,6 +60,30 @@
       "writtenOn": "2016-12-11T18:30:12Z",
       "side": 1,
       "message": "Again, you should use OSS audio hal",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 25
+      },
+      "revId": "a290cef72ab6fe8b223aaf6bd7038843d100d062",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_b76d0d06",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-16T14:59:15Z",
+      "side": 1,
+      "message": "*broken audio.primary.** blob from OSS HAL. \n(Compiled but not working on the device)\n\n*audio-resampler compiled and worked successfully",
+      "parentUuid": "5f681702_92d3d238",
       "range": {
         "startLine": 59,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "5f681702_9770d1de",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-16T14:59:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f681702_32175ef0",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 15
+      },
+      "revId": "a290cef72ab6fe8b223aaf6bd7038843d100d062",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_f21cc614",
         "filename": "proprietary-files-qc.txt",
         "patchSetId": 7
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "5f681702_f77665d8",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-16T14:59:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f681702_f21cc614",
+      "range": {
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 167,
+        "endChar": 23
+      },
+      "revId": "a290cef72ab6fe8b223aaf6bd7038843d100d062",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_521c9a11",
         "filename": "proprietary-files-qc.txt",
         "patchSetId": 7
@@ -105,6 +201,30 @@
       "writtenOn": "2016-12-11T18:30:12Z",
       "side": 1,
       "message": "This lib is built from source",
+      "range": {
+        "startLine": 172,
+        "startChar": 0,
+        "endLine": 172,
+        "endChar": 14
+      },
+      "revId": "a290cef72ab6fe8b223aaf6bd7038843d100d062",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_d771a9e0",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 7
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-16T14:59:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f681702_521c9a11",
       "range": {
         "startLine": 172,
         "startChar": 0,
