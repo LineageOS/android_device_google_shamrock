@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5f681702_47131e0e",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 10
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-18T18:20:34Z",
+      "side": 1,
+      "message": "it needs librilqmiservices.so . When it remove this file, it is not working SIM Card\n\nI removed libqti_performance.so, it is neccessary file.",
+      "parentUuid": "5f681702_a43f9023",
+      "range": {
+        "startLine": 90,
+        "startChar": 0,
+        "endLine": 91,
+        "endChar": 24
+      },
+      "revId": "1ecb2ad3f78c25604cc4151a71a9e4b3b96b4f77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_64361855",
         "filename": "proprietary-files-qc.txt",
         "patchSetId": 10
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "5f681702_a7f952c9",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 10
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-18T18:20:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f681702_64361855",
+      "revId": "1ecb2ad3f78c25604cc4151a71a9e4b3b96b4f77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5f681702_44395c3f",
         "filename": "proprietary-files-qc.txt",
         "patchSetId": 10
@@ -53,6 +95,24 @@
       "writtenOn": "2016-12-18T15:25:43Z",
       "side": 1,
       "message": "New line",
+      "revId": "1ecb2ad3f78c25604cc4151a71a9e4b3b96b4f77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_87f416d1",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 10
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-18T18:20:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f681702_44395c3f",
       "revId": "1ecb2ad3f78c25604cc4151a71a9e4b3b96b4f77",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
