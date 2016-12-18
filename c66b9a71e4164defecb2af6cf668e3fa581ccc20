@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_a4ccb06a",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-18T15:17:01Z",
+      "side": 1,
+      "message": "Missing acdbloader",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 70
+      },
+      "revId": "c66b9a71e4164defecb2af6cf668e3fa581ccc20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_84c7f445",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-18T15:17:01Z",
+      "side": 1,
+      "message": "Missind drm libs",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 12
+      },
+      "revId": "c66b9a71e4164defecb2af6cf668e3fa581ccc20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_e4c6a848",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-18T15:17:01Z",
+      "side": 1,
+      "message": "Missing QMI libs",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 14
+      },
+      "revId": "c66b9a71e4164defecb2af6cf668e3fa581ccc20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
