@@ -22,6 +22,30 @@
       "revId": "4040975dc4f5a685d38434822b1067c2ae169b7b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_58f48fcf",
+        "filename": "product/media.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16071
+      },
+      "writtenOn": "2016-12-23T20:49:44Z",
+      "side": 1,
+      "message": "Already added to another line, out of sight.",
+      "parentUuid": "5f681702_d8089fda",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 76
+      },
+      "revId": "4040975dc4f5a685d38434822b1067c2ae169b7b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
