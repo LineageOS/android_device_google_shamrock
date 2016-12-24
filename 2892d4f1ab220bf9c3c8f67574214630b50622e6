@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_be794b94",
+        "filename": "liblight/lights.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-12-24T15:13:43Z",
+      "side": 1,
+      "message": "I\u0027m almost sure this path doesn\u0027t exist either",
+      "revId": "2892d4f1ab220bf9c3c8f67574214630b50622e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
