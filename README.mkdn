@@ -1,6 +1,6 @@
-Copyright 2016 - The CyanogenMod Project
+Copyright 2017 - The LineageOS Project
 
-Android One Third Generation Device's (shamrock)
+Android One Third Generation (Shamrock) Device Tree
 ============================================================
 Basic   | Spesification List
 -------:|:-------------------------
