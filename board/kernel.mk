@@ -1,2 +1,2 @@
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_shamrock_defconfig
+TARGET_KERNEL_CONFIG := lineageos_shamrock_defconfig
