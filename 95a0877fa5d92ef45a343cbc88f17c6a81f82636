@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_89e89f7d",
+        "filename": "README.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-01-07T14:10:52Z",
+      "side": 1,
+      "message": "2016",
+      "range": {
+        "startLine": 1,
+        "startChar": 14,
+        "endLine": 1,
+        "endChar": 18
+      },
+      "revId": "95a0877fa5d92ef45a343cbc88f17c6a81f82636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
