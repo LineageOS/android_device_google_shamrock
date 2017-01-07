@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_e9ff2ba9",
+        "filename": "lineage.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2017-01-07T09:52:13Z",
+      "side": 1,
+      "message": "This is not a new makefile. Why are you adding this.",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 42
+      },
+      "revId": "89ff5e9af152fc82cf1a13bb970d51aacdcbf1c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
